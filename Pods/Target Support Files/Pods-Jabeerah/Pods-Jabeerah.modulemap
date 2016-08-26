@@ -1,0 +1,6 @@
+framework module Pods_Jabeerah {
+  umbrella header "Pods-Jabeerah-umbrella.h"
+
+  export *
+  module * { export * }
+}

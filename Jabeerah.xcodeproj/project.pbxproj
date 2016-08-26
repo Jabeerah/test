@@ -1,0 +1,640 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		428512EC1D5F2638005536B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428512EB1D5F2638005536B6 /* AppDelegate.swift */; };
+		428512EE1D5F2638005536B6 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428512ED1D5F2638005536B6 /* FirstViewController.swift */; };
+		428512F01D5F2638005536B6 /* loginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428512EF1D5F2638005536B6 /* loginViewController.swift */; };
+		428512F31D5F2638005536B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 428512F11D5F2638005536B6 /* Main.storyboard */; };
+		428512F51D5F2638005536B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 428512F41D5F2638005536B6 /* Assets.xcassets */; };
+		428512F81D5F2638005536B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 428512F61D5F2638005536B6 /* LaunchScreen.storyboard */; };
+		428513031D5F2638005536B6 /* JabeerahTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428513021D5F2638005536B6 /* JabeerahTests.swift */; };
+		4285130E1D5F2638005536B6 /* JabeerahUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4285130D1D5F2638005536B6 /* JabeerahUITests.swift */; };
+		4285131C1D5F27F7005536B6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4285131B1D5F27F7005536B6 /* GoogleService-Info.plist */; };
+		42D04E6C1D5F5482003AFAA0 /* جبيرة١.png in Resources */ = {isa = PBXBuildFile; fileRef = 42D04E6B1D5F5482003AFAA0 /* جبيرة١.png */; };
+		42D04E751D5F58A5003AFAA0 /* about us.png in Resources */ = {isa = PBXBuildFile; fileRef = 42D04E741D5F58A5003AFAA0 /* about us.png */; };
+		42D04E771D5F594F003AFAA0 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = 42D04E761D5F594F003AFAA0 /* home.png */; };
+		42D04E791D5F595A003AFAA0 /* rigester.png in Resources */ = {isa = PBXBuildFile; fileRef = 42D04E781D5F595A003AFAA0 /* rigester.png */; };
+		42E57E701D63C55B00864394 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E57E6F1D63C55B00864394 /* RegistrationViewController.swift */; };
+		7E41C502FD4920249A5C529F /* Pods_Jabeerah.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C8B1BB1855D818D70AABBB9 /* Pods_Jabeerah.framework */; };
+		A878BF941D69125F00355ED1 /* Viewaccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = A878BF931D69125F00355ED1 /* Viewaccount.swift */; };
+		A878BF981D6A11DB00355ED1 /* Editaccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = A878BF971D6A11DB00355ED1 /* Editaccount.swift */; };
+		A878BF9C1D6B025300355ED1 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A878BF9B1D6B025300355ED1 /* UIViewController+Extension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		428512FF1D5F2638005536B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 428512E01D5F2638005536B6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 428512E71D5F2638005536B6;
+			remoteInfo = Jabeerah;
+		};
+		4285130A1D5F2638005536B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 428512E01D5F2638005536B6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 428512E71D5F2638005536B6;
+			remoteInfo = Jabeerah;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2269D6C3D7644689DCD55F19 /* Pods-Jabeerah.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jabeerah.release.xcconfig"; path = "Pods/Target Support Files/Pods-Jabeerah/Pods-Jabeerah.release.xcconfig"; sourceTree = "<group>"; };
+		260FFFD0BD2A79A7C51C5CCD /* Pods-Jabeerah.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jabeerah.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Jabeerah/Pods-Jabeerah.debug.xcconfig"; sourceTree = "<group>"; };
+		428512E81D5F2638005536B6 /* Jabeerah.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jabeerah.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		428512EB1D5F2638005536B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		428512ED1D5F2638005536B6 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		428512EF1D5F2638005536B6 /* loginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginViewController.swift; sourceTree = "<group>"; };
+		428512F21D5F2638005536B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		428512F41D5F2638005536B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		428512F71D5F2638005536B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		428512F91D5F2638005536B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		428512FE1D5F2638005536B6 /* JabeerahTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JabeerahTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		428513021D5F2638005536B6 /* JabeerahTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JabeerahTests.swift; sourceTree = "<group>"; };
+		428513041D5F2638005536B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		428513091D5F2638005536B6 /* JabeerahUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JabeerahUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4285130D1D5F2638005536B6 /* JabeerahUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JabeerahUITests.swift; sourceTree = "<group>"; };
+		4285130F1D5F2638005536B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4285131B1D5F27F7005536B6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		42D04E6B1D5F5482003AFAA0 /* جبيرة١.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "جبيرة١.png"; sourceTree = "<group>"; };
+		42D04E741D5F58A5003AFAA0 /* about us.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "about us.png"; sourceTree = "<group>"; };
+		42D04E761D5F594F003AFAA0 /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
+		42D04E781D5F595A003AFAA0 /* rigester.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rigester.png; sourceTree = "<group>"; };
+		42E57E6F1D63C55B00864394 /* RegistrationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
+		4C8B1BB1855D818D70AABBB9 /* Pods_Jabeerah.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Jabeerah.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A878BF931D69125F00355ED1 /* Viewaccount.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Viewaccount.swift; sourceTree = "<group>"; };
+		A878BF971D6A11DB00355ED1 /* Editaccount.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Editaccount.swift; sourceTree = "<group>"; };
+		A878BF9B1D6B025300355ED1 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		428512E51D5F2638005536B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E41C502FD4920249A5C529F /* Pods_Jabeerah.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		428512FB1D5F2638005536B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		428513061D5F2638005536B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1872F6D337697DBCE4169270 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4C8B1BB1855D818D70AABBB9 /* Pods_Jabeerah.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2D966030078A26162C22A918 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				260FFFD0BD2A79A7C51C5CCD /* Pods-Jabeerah.debug.xcconfig */,
+				2269D6C3D7644689DCD55F19 /* Pods-Jabeerah.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		428512DF1D5F2638005536B6 = {
+			isa = PBXGroup;
+			children = (
+				428512EA1D5F2638005536B6 /* Jabeerah */,
+				428513011D5F2638005536B6 /* JabeerahTests */,
+				4285130C1D5F2638005536B6 /* JabeerahUITests */,
+				428512E91D5F2638005536B6 /* Products */,
+				2D966030078A26162C22A918 /* Pods */,
+				1872F6D337697DBCE4169270 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		428512E91D5F2638005536B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				428512E81D5F2638005536B6 /* Jabeerah.app */,
+				428512FE1D5F2638005536B6 /* JabeerahTests.xctest */,
+				428513091D5F2638005536B6 /* JabeerahUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		428512EA1D5F2638005536B6 /* Jabeerah */ = {
+			isa = PBXGroup;
+			children = (
+				42D04E6D1D5F5487003AFAA0 /* Images */,
+				428512EB1D5F2638005536B6 /* AppDelegate.swift */,
+				428512ED1D5F2638005536B6 /* FirstViewController.swift */,
+				428512EF1D5F2638005536B6 /* loginViewController.swift */,
+				42E57E6F1D63C55B00864394 /* RegistrationViewController.swift */,
+				A878BF931D69125F00355ED1 /* Viewaccount.swift */,
+				A878BF971D6A11DB00355ED1 /* Editaccount.swift */,
+				A878BF9B1D6B025300355ED1 /* UIViewController+Extension.swift */,
+				428512F11D5F2638005536B6 /* Main.storyboard */,
+				428512F41D5F2638005536B6 /* Assets.xcassets */,
+				428512F61D5F2638005536B6 /* LaunchScreen.storyboard */,
+				428512F91D5F2638005536B6 /* Info.plist */,
+				4285131B1D5F27F7005536B6 /* GoogleService-Info.plist */,
+			);
+			path = Jabeerah;
+			sourceTree = "<group>";
+		};
+		428513011D5F2638005536B6 /* JabeerahTests */ = {
+			isa = PBXGroup;
+			children = (
+				428513021D5F2638005536B6 /* JabeerahTests.swift */,
+				428513041D5F2638005536B6 /* Info.plist */,
+			);
+			path = JabeerahTests;
+			sourceTree = "<group>";
+		};
+		4285130C1D5F2638005536B6 /* JabeerahUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4285130D1D5F2638005536B6 /* JabeerahUITests.swift */,
+				4285130F1D5F2638005536B6 /* Info.plist */,
+			);
+			path = JabeerahUITests;
+			sourceTree = "<group>";
+		};
+		42D04E6D1D5F5487003AFAA0 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				42D04E6B1D5F5482003AFAA0 /* جبيرة١.png */,
+				42D04E741D5F58A5003AFAA0 /* about us.png */,
+				42D04E761D5F594F003AFAA0 /* home.png */,
+				42D04E781D5F595A003AFAA0 /* rigester.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		428512E71D5F2638005536B6 /* Jabeerah */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 428513121D5F2638005536B6 /* Build configuration list for PBXNativeTarget "Jabeerah" */;
+			buildPhases = (
+				8E3667979BDE548509F92622 /* [CP] Check Pods Manifest.lock */,
+				428512E41D5F2638005536B6 /* Sources */,
+				428512E51D5F2638005536B6 /* Frameworks */,
+				428512E61D5F2638005536B6 /* Resources */,
+				B3952F93DB103F8C491EF31B /* [CP] Embed Pods Frameworks */,
+				50185A80AA7CE9CE23A3ECB2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Jabeerah;
+			productName = Jabeerah;
+			productReference = 428512E81D5F2638005536B6 /* Jabeerah.app */;
+			productType = "com.apple.product-type.application";
+		};
+		428512FD1D5F2638005536B6 /* JabeerahTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 428513151D5F2638005536B6 /* Build configuration list for PBXNativeTarget "JabeerahTests" */;
+			buildPhases = (
+				428512FA1D5F2638005536B6 /* Sources */,
+				428512FB1D5F2638005536B6 /* Frameworks */,
+				428512FC1D5F2638005536B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				428513001D5F2638005536B6 /* PBXTargetDependency */,
+			);
+			name = JabeerahTests;
+			productName = JabeerahTests;
+			productReference = 428512FE1D5F2638005536B6 /* JabeerahTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		428513081D5F2638005536B6 /* JabeerahUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 428513181D5F2638005536B6 /* Build configuration list for PBXNativeTarget "JabeerahUITests" */;
+			buildPhases = (
+				428513051D5F2638005536B6 /* Sources */,
+				428513061D5F2638005536B6 /* Frameworks */,
+				428513071D5F2638005536B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4285130B1D5F2638005536B6 /* PBXTargetDependency */,
+			);
+			name = JabeerahUITests;
+			productName = JabeerahUITests;
+			productReference = 428513091D5F2638005536B6 /* JabeerahUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		428512E01D5F2638005536B6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Jabeerah;
+				TargetAttributes = {
+					428512E71D5F2638005536B6 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = FSFCLVK2YQ;
+					};
+					428512FD1D5F2638005536B6 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 428512E71D5F2638005536B6;
+					};
+					428513081D5F2638005536B6 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 428512E71D5F2638005536B6;
+					};
+				};
+			};
+			buildConfigurationList = 428512E31D5F2638005536B6 /* Build configuration list for PBXProject "Jabeerah" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 428512DF1D5F2638005536B6;
+			productRefGroup = 428512E91D5F2638005536B6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				428512E71D5F2638005536B6 /* Jabeerah */,
+				428512FD1D5F2638005536B6 /* JabeerahTests */,
+				428513081D5F2638005536B6 /* JabeerahUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		428512E61D5F2638005536B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42D04E751D5F58A5003AFAA0 /* about us.png in Resources */,
+				4285131C1D5F27F7005536B6 /* GoogleService-Info.plist in Resources */,
+				42D04E771D5F594F003AFAA0 /* home.png in Resources */,
+				428512F81D5F2638005536B6 /* LaunchScreen.storyboard in Resources */,
+				42D04E791D5F595A003AFAA0 /* rigester.png in Resources */,
+				428512F51D5F2638005536B6 /* Assets.xcassets in Resources */,
+				428512F31D5F2638005536B6 /* Main.storyboard in Resources */,
+				42D04E6C1D5F5482003AFAA0 /* جبيرة١.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		428512FC1D5F2638005536B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		428513071D5F2638005536B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		50185A80AA7CE9CE23A3ECB2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Jabeerah/Pods-Jabeerah-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8E3667979BDE548509F92622 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B3952F93DB103F8C491EF31B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Jabeerah/Pods-Jabeerah-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		428512E41D5F2638005536B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				428512F01D5F2638005536B6 /* loginViewController.swift in Sources */,
+				A878BF981D6A11DB00355ED1 /* Editaccount.swift in Sources */,
+				428512EC1D5F2638005536B6 /* AppDelegate.swift in Sources */,
+				A878BF941D69125F00355ED1 /* Viewaccount.swift in Sources */,
+				A878BF9C1D6B025300355ED1 /* UIViewController+Extension.swift in Sources */,
+				42E57E701D63C55B00864394 /* RegistrationViewController.swift in Sources */,
+				428512EE1D5F2638005536B6 /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		428512FA1D5F2638005536B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				428513031D5F2638005536B6 /* JabeerahTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		428513051D5F2638005536B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4285130E1D5F2638005536B6 /* JabeerahUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		428513001D5F2638005536B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 428512E71D5F2638005536B6 /* Jabeerah */;
+			targetProxy = 428512FF1D5F2638005536B6 /* PBXContainerItemProxy */;
+		};
+		4285130B1D5F2638005536B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 428512E71D5F2638005536B6 /* Jabeerah */;
+			targetProxy = 4285130A1D5F2638005536B6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		428512F11D5F2638005536B6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				428512F21D5F2638005536B6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		428512F61D5F2638005536B6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				428512F71D5F2638005536B6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		428513101D5F2638005536B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		428513111D5F2638005536B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		428513131D5F2638005536B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 260FFFD0BD2A79A7C51C5CCD /* Pods-Jabeerah.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Jabeerah/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sa.com.Jabeerah.Jabeerah;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		428513141D5F2638005536B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2269D6C3D7644689DCD55F19 /* Pods-Jabeerah.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Jabeerah/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sa.com.Jabeerah.Jabeerah;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		428513161D5F2638005536B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JabeerahTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sa.com.Jabeerah.JabeerahTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jabeerah.app/Jabeerah";
+			};
+			name = Debug;
+		};
+		428513171D5F2638005536B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JabeerahTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sa.com.Jabeerah.JabeerahTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jabeerah.app/Jabeerah";
+			};
+			name = Release;
+		};
+		428513191D5F2638005536B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JabeerahUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sa.com.Jabeerah.JabeerahUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Jabeerah;
+			};
+			name = Debug;
+		};
+		4285131A1D5F2638005536B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JabeerahUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sa.com.Jabeerah.JabeerahUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Jabeerah;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		428512E31D5F2638005536B6 /* Build configuration list for PBXProject "Jabeerah" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				428513101D5F2638005536B6 /* Debug */,
+				428513111D5F2638005536B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		428513121D5F2638005536B6 /* Build configuration list for PBXNativeTarget "Jabeerah" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				428513131D5F2638005536B6 /* Debug */,
+				428513141D5F2638005536B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		428513151D5F2638005536B6 /* Build configuration list for PBXNativeTarget "JabeerahTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				428513161D5F2638005536B6 /* Debug */,
+				428513171D5F2638005536B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		428513181D5F2638005536B6 /* Build configuration list for PBXNativeTarget "JabeerahUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				428513191D5F2638005536B6 /* Debug */,
+				4285131A1D5F2638005536B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 428512E01D5F2638005536B6 /* Project object */;
+}
