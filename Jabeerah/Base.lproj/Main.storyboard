@@ -475,36 +475,14 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Uzc-nq-ueA">
-                                <rect key="frame" x="53" y="410" width="199" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bID-C1-nDM">
-                                <rect key="frame" x="61" y="351" width="199" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="المدينة" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vr7-bu-lKW">
                                 <rect key="frame" x="141" y="260" width="34" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="كلمة المرور" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bAr-XQ-tWK">
-                                <rect key="frame" x="122" y="322" width="60" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="اعادة كلمة المرور" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ucd-ne-Rdd">
-                                <rect key="frame" x="106" y="381" width="96" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="|" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SSc-4G-5Dc">
-                                <rect key="frame" x="148" y="470" width="30" height="25"/>
+                                <rect key="frame" x="142" y="347" width="30" height="25"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="25" id="Me9-l7-cSo"/>
                                     <constraint firstAttribute="width" constant="20" id="clf-Zd-bFF"/>
@@ -514,7 +492,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AEd-dO-Kuc">
-                                <rect key="frame" x="35" y="468" width="110" height="30"/>
+                                <rect key="frame" x="29" y="345" width="110" height="30"/>
                                 <state key="normal" title="إعادة تعين كلمة المرور">
                                     <color key="titleColor" red="0.51187859950000003" green="0.80879826570000002" blue="0.74799379560000001" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
@@ -523,7 +501,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4gv-Yj-yc1">
-                                <rect key="frame" x="148" y="468" width="149" height="30"/>
+                                <rect key="frame" x="142" y="345" width="149" height="30"/>
                                 <state key="normal" title="حذف الحساب">
                                     <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -559,9 +537,7 @@
                         <outlet property="CityTF" destination="cfi-Vr-Iad" id="8mw-N7-PA8"/>
                         <outlet property="EmailTF" destination="oLv-wE-rgl" id="AaT-1f-Z7A"/>
                         <outlet property="NameTF" destination="QNt-UJ-WaG" id="5BP-v2-hJg"/>
-                        <outlet property="PasswordTF" destination="bID-C1-nDM" id="eEM-Rn-m1G"/>
                         <outlet property="PhoneTF" destination="n5r-nZ-O2J" id="7LM-bW-Iwd"/>
-                        <outlet property="RePasswordTF" destination="Uzc-nq-ueA" id="wQ6-1J-cxA"/>
                         <outlet property="emailTF" destination="oLv-wE-rgl" id="tbA-OP-CIc"/>
                         <outlet property="nameTF" destination="oLv-wE-rgl" id="Dzv-gq-3Zv"/>
                     </connections>

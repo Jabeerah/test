@@ -23,8 +23,7 @@ class Editaccount: UIViewController {
     @IBOutlet weak var EmailTF: UITextField!
     @IBOutlet weak var PhoneTF: UITextField!
     @IBOutlet weak var CityTF: UITextField!
-    @IBOutlet weak var PasswordTF: UITextField!
-    @IBOutlet weak var RePasswordTF: UITextField!
+    
     
     let ref = FIRDatabase.database().reference()
     
@@ -99,11 +98,7 @@ class Editaccount: UIViewController {
         
 
         
-        FIRAuth.auth()?.signInWithEmail(self.EmailTF.text!, password: self.PasswordTF.text!, completion: { (user: FIRUser?, error: NSError?) in
-            if let error = error {
-                print(error.localizedDescription)
-            } else {
-
+        let user = FIRAuth.auth()?.currentUser
         
       let key = self.ref.child("UserProfile").childByAutoId().key
        let post = ["name": Name,
@@ -115,9 +110,6 @@ class Editaccount: UIViewController {
      self.ref.updateChildValues(childUpdates)
         
         
-            }
-        })
-    
        
  }
 
