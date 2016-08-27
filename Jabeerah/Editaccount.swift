@@ -91,25 +91,11 @@ class Editaccount: UIViewController {
             return
         }
         
-        
-        guard let NewPassword = PasswordTF.text where !NewPassword.isEmpty else {
-            print("أدخل كلمة المروور من فضلك")
-           return
-        }
-        
-        guard let NewRePassword = RePasswordTF.text where !NewRePassword.isEmpty else {
-            print("أعد كتابة كلمة  المرور ")
-           return
-        }
-        
-        guard NewPassword == NewRePassword else {
-            print("كلمتا المرور غير متطابقة")
-            return
-        }
+    
         
 
         UpdateEmail(Email)  // call
-        Setpassword(NewPassword, RePassword: NewRePassword)//call
+    
         
 
         
@@ -177,29 +163,69 @@ class Editaccount: UIViewController {
     
     
     
-    
-    func Setpassword( Password : String , RePassword : String )-> (String, String)
-
-    {
-        // ناقص تعريف المتغيرات
-       
-            let user = FIRAuth.auth()?.currentUser
+    @IBAction func ResetPassword(sender: UIButton) {
         
-        user?.updatePassword(RePassword, completion:{ error in
-            if let error = error {
-                
-                print (error.localizedDescription)
-            } else {
-                // Email updated.
-                self.showAlert("Succeed", message: " تم ضبط كلمة المرور بنجاح")
-            }
-            })
-            
-        return (Password, RePassword)
         
+        guard (FIRAuth.auth()?.currentUser) != nil else { return }
+        
+        
+        let alert = UIAlertController(title: "أدخل", message: "كلمة المرورالجديدة", preferredStyle: .Alert)
+        
+        alert.addTextFieldWithConfigurationHandler { (tf: UITextField) in
+            tf.placeholder = "كلمة المرور"
         }
         
+        alert.addTextFieldWithConfigurationHandler { (tf:UITextField) in
+            tf.placeholder = "إعادة كلمة المرور"
+        }
+        alert.addAction(UIAlertAction(title: "ألغاء", style: .Cancel, handler: nil))
+        
+        alert.addAction(UIAlertAction(title: "تحديث", style: .Default, handler: { (action:UIAlertAction) in
+            if let textFields = alert.textFields {
+                let NewPassword = textFields.first!.text!
+                let RePassword = textFields[1].text!
+                
+                
+                if NewPassword == "" || RePassword == ""
+                {
+                    self.showAlert("عذراً", message: " فضلاً أدخل قيمة في الحقل المطلوب")
+                    
+                }
+                else
+                    
+                {
+                    if  NewPassword != RePassword {
+                        
+                        self.showAlert("عذراً", message: "كلمتا المرور غير متطابقتين")
+                            
+                    }
+                             else
+                            {
+                                
+                                let user = FIRAuth.auth()?.currentUser
+                                
+                                user?.updatePassword(RePassword, completion:{ error in
+                                    if let error = error {
+                                        
+                                        print (error.localizedDescription)
+                                    } else {
+                                        // Email updated.
+                                        self.showAlert("تم", message: " تم ضبط كلمة المرور بنجاح")
+                                    }
+                                })
+                            }
+                        }
+                    }
+                }
+            ))
+
     
     
+    self.presentViewController(alert, animated: true, completion: nil)
+    
+}
+
+
 
 }
+
